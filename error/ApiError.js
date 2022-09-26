@@ -6,6 +6,7 @@ class ApiError extends Error {
     }
 
     static badRequest(message) {
+        console.log(message)
         if(message.name.includes('Sequelize')){
             message = message.name
         }
