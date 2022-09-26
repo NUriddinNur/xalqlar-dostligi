@@ -36,6 +36,7 @@ export const REGISTRATION = Joi.object({
         username: Joi.string().trim().min(2).max(255).required(),
         password: Joi.string().trim().min(4).required(),
         phone: Joi.string().trim().length(12).pattern(/^[0-9]+$/).required(),
+        role: Joi.string()
     })
 })
 
