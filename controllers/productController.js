@@ -3,7 +3,7 @@ import models from '../models/models.js'
 import ApiError from '../error/ApiError.js'
 import fs from 'fs'
 
-const link = 'http://165.22.66.59:3001/api/'
+const link = 'http://165.22.66.59:3001/'
 
 
 class ProductController {
